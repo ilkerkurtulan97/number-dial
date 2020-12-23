@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>My css work</title>
+  </head>
+  <body>
+  <h1 id="ilkerTag">Make a call. . .</h1>
+    <div class="container">
+      <div class="one number" onclick="oneFunc()">
+        <h1 class="num1">1</h1>
+      </div>
+
+      <div class="two number" onclick="twoFunc()">
+        <h1 class="num2">2</h1>
+        <ul>
+          <li>A</li>
+          <li>B</li>
+          <li>C</li>
+        </ul>
+      </div>
+
+      <div class="three number" onclick="threeFunc()">
+        <h1 class="num3">3</h1>
+        <ul>
+          <li>D</li>
+          <li>E</li>
+          <li>F</li>
+        </ul>
+      </div>
+
+      <div class="four number" onclick="fourFunc()">
+        <h1 class="num4">4</h1>
+        <ul>
+          <li>G</li>
+          <li>H</li>
+          <li>I</li>
+        </ul>
+      </div>
+
+      <div class="five number" onclick="fiveFunc()">
+        <h1 class="num5">5</h1>
+        <ul>
+          <li>J</li>
+          <li>K</li>
+          <li>L</li>
+        </ul>
+      </div>
+
+      <div class="six number" onclick="sixFunc()">
+        <h1 class="num6">6</h1>
+        <ul>
+          <li>M</li>
+          <li>N</li>
+          <li>O</li>
+        </ul>
+      </div>
+
+      <div class="seven number" onclick="sevenFunc()">
+        <h1 class="num7">7</h1>
+        <ul>
+          <li>P</li>
+          <li>Q</li>
+          <li>R</li>
+          <li>S</li>
+        </ul>
+      </div>
+
+      <div class="eight number" onclick="eightFunc()">
+        <h1 class="num8">8</h1>
+        <ul>
+          <li>T</li>
+          <li>U</li>
+          <li>V</li>
+        </ul>
+      </div>
+
+      <div class="nine number" onclick="nineFunc()">
+        <h1 class="num9">9</h1>
+        <ul>
+          <li>W</li>
+          <li>X</li>
+          <li>Y</li>
+          <li>Z</li>
+        </ul>
+      </div>
+
+      <div class="star number" onclick="starFunc()">
+        <h1 class="star1">*</h1>
+      </div>
+
+      <div class="zero number" onclick="zeroFunc()">
+        <h1 class="zero1">0</h1>
+        <ul>
+          <li>+</li>
+        </ul>
+      </div>
+
+      <div class="tag number" onclick="tagFunc()">
+        <h1 class="tag1">#</h1>
+      </div>
+    </div>
+
+    <div id="inputLine">
+      <input
+        type="text"
+        name="name"
+        pattern="[0-9]"
+        title="Title"
+        placeholder="Dial . . . "
+        id="myInput"
+      />
+    </div>
+
+    <button id="delete">DEL</button>
+
+    <button id="call">CALL</button>
+
+    <div class="myCall">
+      <div class="phone">
+        <span class="material-icons"> call </span>
+      </div>
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
